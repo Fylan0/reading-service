@@ -22,7 +22,7 @@ mybatis-plus:
 knife4j:
   enable: true
   openapi:
-    title: 整挺好接口文档
+    title: Reading接口文档
     description: "Reading接口文档"
     email: 123456@gmail.com
     concat: XX
