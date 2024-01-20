@@ -3,6 +3,12 @@ server:
 spring:
   application:
     name: book-service
+  servlet:
+    multipart:
+      enabled: true
+      maxFileSize: 100MB
+      maxRequestSize: 100MB
+
   #配置数据库相关
   datasource:
     url: jdbc:mysql://localhost:3306/reading?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=Asia/Shanghai

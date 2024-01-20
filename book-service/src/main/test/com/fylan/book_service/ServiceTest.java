@@ -41,7 +41,7 @@ public class ServiceTest {
 //        List<BookVo> bookVos = BeanUtil.copyToList(list, BookVo.class);
 //        System.out.println("bookVos = " + bookVos);
 
-        List<BookChapterVo> bookList = chapterController.getBookChapter("123456");
+        List<BookChapterVo> bookList = chapterController.getBookChapter("4bad1ca8-a6f6-44d5-8e94-479cd3288480");
         System.out.println("BookChapterVo = " + bookList);
     }
 }
